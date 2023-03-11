@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
+:root {
+    --maintext-color: #FFFFFF;
+    --sectext-color: #C0C0C0;
+    --bg-color: #00030C;
+    --button-color: #167BF7;
+    --button-hover: #70adf8;
+
+    --main-font: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--maintext-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+}
+
+.main-section {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left_container {
+    margin: 0 6em;
+}
+
+.bg_img {
+    margin: 1em 0 2em 0;
+}
+
+.container__button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--maintext-color);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.container__button:hover{
+    width: 34rem;
+    height: 1.5rem;
+}
+
+.container__second_button {
+    background-color: transparent;
+    border: 2px solid var(--maintext-color);
+}
+
+.third__button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--maintext-color);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.third__button:hover {
+    background-color: var(--button-hover);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.disclaimer {
+    color: var(--sectext-color);
+    font-size: 12px;
+}
+
+.second__section {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.sec__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.sec__img {
+    width: 80%;
+}
+
+.text {
+    color: var(--sectext-color);
+}
+
+
+.description {
+    margin: 2.3em;
+}
+
+.devices {
+    text-align: center;
+}
+
+.device__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.list__item {
+    font-size: 32px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 12rem 9rem;
+}
+
+.rodape__list {
+    
+    list-style-type: none;
+    gap: 16px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display:inline-flex;
+}
+
+.rodape__link {
+    color: var(--sectext-color);
+    text-decoration: none;
+}
+
+.rodape__text {
+    font-size: 14px;
+    color: var(--sectext-color);
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+}
